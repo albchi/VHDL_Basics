@@ -12,5 +12,8 @@ To duplicate this setup, you will need
 5) When in Vivado, you will need to create 1) RTL design, done in VHDL for this example 2) Xilinx Design
    Constraint (XDC) file, which will map VHDL entity ports to I/O on the board, create the clock needed by
    the FPGA.
+   
+![helo_netlist_vivado](https://github.com/user-attachments/assets/6f281991-0978-4ba3-aebf-85951f178a09)
+
 
 ![helo_fpga](https://github.com/user-attachments/assets/d0c88c84-f322-4e80-8b00-6bd8b6872314)
