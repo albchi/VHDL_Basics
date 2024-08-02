@@ -47,9 +47,6 @@ leds(2) <= '0' when cnt(30) = '1' else
            '1' when cnt(30) = '0' else
            'X'; 
 
---leds(1) <= '0' when cnt(28) = '1' else
---           '1' when cnt(28) = '0' else
---           'X'; 
 
 
 -- a process duplicating a CSA
