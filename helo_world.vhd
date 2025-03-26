@@ -111,6 +111,9 @@ begin
             when "11" => --x"3" 
                 seg7 <= "0001001"; -- H
                 an <= "0111";
+            when others =>         -- some compilers (VCS) requires this
+                an <= "1111";      -- all OFF
+
 
         end case;
     end if; -- clk
