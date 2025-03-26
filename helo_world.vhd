@@ -82,6 +82,11 @@ process_if : process (cnt)
     
 end process; -- process_if
 
+-- This process is a clocked infinite loop 
+-- that increments unsigned (31 downto 0) varialbe "cnt".
+-- Looking at bits (20 downto 19) of cnt, I created four phases
+-- responsible for driving 'H', 'E', 'L', or 'O';
+        
 process_time_wheel : process (clk) 
 
 variable vuppercnt : integer := 0;
